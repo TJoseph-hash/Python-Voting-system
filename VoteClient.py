@@ -4,11 +4,6 @@ ServerPort = 12004
 ClientSocket = socket(AF_INET,SOCK_DGRAM)
 
 file1= open("votes.txt")
-## file2 = open("response.txt")
-
-
-print("Name: Tishawn Joseph")
-print("Student ID: 816042378")
 
 
 
@@ -37,4 +32,5 @@ try:
 
 finally:
     file1.close()
+
     ClientSocket.close()
